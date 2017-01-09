@@ -1,0 +1,369 @@
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+h1, h2, h3 {
+  margin-top: 0;
+  font-family: 'Vollkorn', serif;
+}
+.navigation a {
+  color: #000;
+}
+.navigation {
+  margin-bottom: 30px;
+}
+.vedette {
+  color: #0a003c;
+  text-align: center !important;
+  margin: 25px 0 0 0;
+  text-transform: uppercase;
+  font-size: 2.4em;
+}
+.news h3 {
+  color: #0a003c;
+  text-transform: uppercase;
+  font-size: 2em;
+  position: relative;
+  text-align: left;
+}
+.news h3 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+.news h3:before {
+  background: #cd000c;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 45%;
+  width: 100%;
+}
+.news h3:before {
+  left: 0;
+}
+#vedette2 {
+  text-align: center !important;
+  margin: 0;
+  color: #0a003c;
+  text-transform: uppercase;
+  font-size: 2.4em;
+  padding-top: 1em;
+}
+.taboola-pub {
+  margin-top: 40px;
+}
+.taboola-pub h3 {
+  color: #0a003c;
+  text-transform: uppercase;
+  font-size: 2em;
+  position: relative;
+  text-align: left;
+}
+.taboola-pub h3 span {
+  background: #fff;
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+}
+.taboola-pub h3:before {
+  background: #cd000c;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 98%;
+}
+.taboola-pub h3:before {
+  left: 0;
+}
+.site-header {
+  background-color: #0a003c;
+}
+.site-header img {
+  width: 60%;
+  margin-left: 20%;
+}
+.site-header nav {
+  border-top: 1px solid #fff;
+  background-color: #0a003c;
+  display: flex;
+  align-items: center;
+}
+.site-header nav ul li {
+  text-align: center;
+}
+.site-header nav ul a:hover {
+  color: #ffc600;
+  background-color: #0a003c;
+}
+#site-navigation ul li.current-menu-item > a {
+  color: #ffc600;
+}
+.site-header nav .menu-item-type-taxonomy {
+  display: table;
+  background-color: #0a003c;
+}
+.site-header nav .sub-menu {
+  margin-top: 1.3em;
+}
+.site-header nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1vw;
+  font-family: 'Vollkorn', serif;
+}
+.crop {
+  height: 0;
+  padding-bottom: 90%;
+  overflow: hidden;
+}
+.crop-resume {
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+}
+p {
+  margin-top: 0;
+}
+.card-content {
+  padding: 0 2em;
+  line-height: 1.5;
+}
+.views {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.date {
+  z-index: 100;
+  background-color: rgba(10, 0, 60, 0.9);
+  overflow: hidden;
+  color: #fff;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  padding: 1em;
+}
+img:hover {
+  opacity: 0.8;
+}
+.lastNews {
+  background-color: transparent;
+  box-shadow: none;
+}
+.lastNews a {
+  color: #fff;
+}
+.logo-wrap {
+  text-align: left;
+}
+.card-content {
+  box-shadow: none;
+  border: none;
+}
+.card {
+  border: none;
+}
+.card span {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.card span a {
+  font-family: 'Roboto bold', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.8vh;
+  font-shadow: #000;
+  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.card h4 {
+  padding: 5px 0 0 20px;
+  position: absolute;
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.14rem 0 0.912rem 0;
+  top: 0;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+.card h4 a {
+  color: #000;
+}
+.singleNews .views-single {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  color: #fff;
+  padding: 10px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.singleNews .views-single img {
+  padding-right: 5px;
+}
+.singleNews .card, .singleNews .card-content, .singleNews .card-image {
+  box-shadow: 0 !important;
+}
+.singleNews span {
+  color: #000;
+  position: absolute;
+  height: 25%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.singleNews a {
+  color: #fff;
+}
+#single-title a {
+  font-size: 3.5vh;
+}
+body, button, input, select, textarea {
+  line-height: 1;
+}
+.mashicon-facebook {
+  background-color: #0a003c;
+}
+.social {
+  display: flex;
+  align-items: center;
+}
+.mashsb-stretched .mashsb-buttons {
+  width: 70%;
+}
+.main-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  clear: both;
+  padding-top: 2%;
+  width: 100%;
+}
+.main-navigation ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.main-navigation li {
+  float: left;
+  position: relative;
+}
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+}
+.main-navigation ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  float: left;
+  position: absolute;
+  top: 1.5em;
+  left: -999em;
+  z-index: 99999;
+}
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+.main-navigation ul ul a {
+  width: 200px;
+}
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+  left: auto;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+  left: 100%;
+}
+/* Small menu. */
+.main-navigation.toggled ul {
+  display: block;
+}
+.menu-toggle {
+  display: none;
+}
+@media screen and (min-width: 37.5em) {
+  .main-navigation ul {
+    display: block;
+  }
+}
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .main-navigation {
+    display: none;
+  }
+  .card span a {
+    font-size: 2vh;
+  }
+  #vedette {
+    font-size: 1.8em;
+  }
+  #vedette2 {
+    font-size: 1.8em;
+  }
+  .taboola-pub .decouvrez {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 400px) {
+  .site-header nav a {
+    font-size: 1em;
+  }
+  #vedette {
+    font-size: 1.8em;
+  }
+  #vedette2 {
+    font-size: 1.8em;
+  }
+  .taboola-pub .decouvrez {
+    font-size: 1.4em;
+  }
+}
+.ad-header {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+.ad-side {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+.ad-side img {
+  padding-top: 2rem;
+}
+@media (max-width: 322px) {
+  .site-header nav a {
+    font-size: 0.7em;
+  }
+}
